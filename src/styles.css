@@ -1,0 +1,9 @@
+table.dataTable > tbody > tr:nth-child(even of :not(.child)) > td,
+table.dataTable > tbody > tr:nth-child(even of :not(.child)) + .child > td {
+  background-color: #f9f9f9;
+}
+ 
+table.dataTable > tbody > tr:nth-child(odd of :not(.child)) > td,
+table.dataTable > tbody > tr:nth-child(odd of :not(.child)) + .child > td {
+  background-color: #eee;
+}
