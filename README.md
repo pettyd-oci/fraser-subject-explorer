@@ -57,7 +57,6 @@ Copy the example file and add your API key:
 ```php
 <?php
     define('API_KEY', 'your-real-key-here');
-    define('BASE_URL', 'your-domain-here');
 ?>
 ```
 ⚠️ Do not commit environment.php — it is .gitignored.
@@ -86,6 +85,3 @@ Clicking Details opens a record’s JSON view.
 
 ## 🛤️ Roadmap
 - Add more FRASER endpoints (collections, titles, items).
-- Build nicer details view (Bootstrap cards instead of raw JSON).
-- Add filters/search across multiple fields.
-- Deploy to a public host (e.g., Fly.io, Render, or Dockerized VPS).
