@@ -17,6 +17,9 @@
 </head>
 
 <body>
+    <?php
+        require_once('./partials/header.php');
+    ?> 
 <div class="container">
     <h1>Fraser Datatables - Subjects</h1>
         <table id="fraserTable" class="table table-striped" style="width: 100%;">
@@ -74,5 +77,8 @@
             ]
         });
     </script>
+    <?php
+        require_once('./partials/footer.php');
+    ?> 
 </body>
 </html>

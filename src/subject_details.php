@@ -37,6 +37,9 @@ $curlTarget = "https://fraser.stlouisfed.org/api/subject/$id/records?limit=100&p
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
+    <?php
+        require_once('./partials/header.php');
+    ?> 
     <div class='container'>
     <h1>Records for  <?= $Object->records[0]->subject->topic[0]->topic ?> (ID: <?= $id ?>)</h1>
     <hr>

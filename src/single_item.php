@@ -94,6 +94,8 @@ $curlTarget = "https://fraser.stlouisfed.org/api/item/$id?limit=100&page=1&forma
         </div>
     </div>
 </div>
-
+ <?php
+    require_once('./partials/footer.php');
+?>  
 </body>
 </html>
