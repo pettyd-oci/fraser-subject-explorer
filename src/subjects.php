@@ -68,7 +68,7 @@
                     targets:[2],
                     data: function (row, type, val, meta) {
                         console.log(row, type, val, meta)
-                        return "<a href='./subject_details.php?id="+row[1]+"' target='_blank'>Details</a>";
+                        return "<a href='./subject_details.php?id="+row[1]+"'>Items Under Subject</a>";
                     }
 
                 },
